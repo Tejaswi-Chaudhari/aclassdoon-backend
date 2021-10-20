@@ -1,1 +1,1 @@
-web: gunicorn advertise.wsgi
+web: gunicorn advertise.wsgi --log-file -
