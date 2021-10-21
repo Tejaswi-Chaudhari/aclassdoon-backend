@@ -78,10 +78,12 @@ DEBUG = True
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'https://aclassdoon.netlify.app/',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000',
+    'https://aclassdoon.netlify.app/',
 ]
 
 WSGI_APPLICATION = 'advertise.wsgi.application'
